@@ -1,7 +1,7 @@
 class Diagnostico():
 	# metodo construtor
 	def __init__(self):
-		self.resultado = ['', 'estressado', '', 'faminto','saudavel']
+		self.resultado = ['dragao', 'fantasma', 'pedra', 'inseto', 'psiquico', 'voador', 'terra', 'veneno', 'lutador', 'gelo', 'grama', 'eletrico', 'agua', 'fogo', 'normal']
 		self.pessoa = []
 		self.db = []
 		# abre o arquivo db.txt em modo leitura e passa os dados para
