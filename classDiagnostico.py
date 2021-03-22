@@ -6,7 +6,7 @@ class Diagnostico():
 		self.db = []
 		# abre o arquivo db.txt em modo leitura e passa os dados para
 		# uma lista de listas de str
-		arquivo = open('db.txt','r')
+		arquivo = open('teste.txt','r')
 		for linha in arquivo:
 			if linha[len(linha) - 1] == '\n':
 				linha = linha.replace("\n", "")
